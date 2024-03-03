@@ -1,0 +1,38 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product{
+    border:  solid black;
+    border-radius: 5%;
+    padding: 10px;
+    width: 30%;
+}
+
+.product img{
+    width: 100%;
+}
+.cash{
+    display: flex;
+    gap: 5px;
+}
+.cash svg{
+    width: 10px;
+}
+.discount{
+    font-weight: 600;
+    color: green;
+}
+.image{
+    display: flex;
+    width: calc((100% - 100px) / 4 );
+    gap: 20px;
+
+
+}
+.image img{
+    width: 200px;
+    border: 1px solid black;
+}
